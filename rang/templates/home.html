@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en" dir="rtl">
 
@@ -204,7 +206,7 @@
 
     <nav class="navbar navbar-expand-sm navbar-light">
         <div id="home" class="container">
-            <img id="icon" width="50" src="static/image/icon.jpg">
+            <img id="icon" width="50" src='{% static "image/icon.jpg" %}'>
             <a id="moad" class="navbar-brand" href="#">نقاشی معاد</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
